@@ -1,0 +1,47 @@
+[
+ {
+  "name": "a",
+  "type": "INTEGER",
+  "mode": "NULLABLE",
+  "description": "field comment"
+ },
+ {
+  "name": "b",
+  "type": "RECORD",
+  "mode": "NULLABLE",
+  "fields": [
+   {
+    "name": "a",
+    "type": "INTEGER",
+    "mode": "REPEATED"
+   }
+  ]
+ },
+ {
+  "name": "c",
+  "type": "STRING",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "e",
+  "type": "TIMESTAMP",
+  "mode": "REQUIRED"
+ },
+ {
+  "name": "f",
+  "type": "INTEGER",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "g",
+  "type": "RECORD",
+  "mode": "NULLABLE",
+  "fields": [
+   {
+    "name": "a",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+   }
+  ]
+ }
+]
