@@ -33,6 +33,11 @@
   "mode": "NULLABLE"
  },
  {
+  "name": "status",
+  "type": "INTEGER",
+  "mode": "NULLABLE"
+ },
+ {
   "name": "f",
   "type": "INTEGER",
   "mode": "NULLABLE"
