@@ -28,6 +28,11 @@
   "mode": "REQUIRED"
  },
  {
+  "name": "date",
+  "type": "DATE",
+  "mode": "NULLABLE"
+ },
+ {
   "name": "f",
   "type": "INTEGER",
   "mode": "NULLABLE"
