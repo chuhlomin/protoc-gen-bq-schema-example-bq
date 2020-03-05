@@ -38,6 +38,23 @@
   "mode": "NULLABLE"
  },
  {
+  "name": "someMap",
+  "type": "RECORD",
+  "mode": "REPEATED",
+  "fields": [
+   {
+    "name": "key",
+    "type": "STRING",
+    "mode": "NULLABLE"
+   },
+   {
+    "name": "value",
+    "type": "STRING",
+    "mode": "NULLABLE"
+   }
+  ]
+ },
+ {
   "name": "f",
   "type": "INTEGER",
   "mode": "NULLABLE"
